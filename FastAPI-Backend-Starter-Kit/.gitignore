@@ -1,0 +1,118 @@
+# --------------------
+# Python-generated files
+# --------------------
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --------------------
+# Virtual environments
+# --------------------
+venv/
+env/
+.venv/
+
+# --------------------
+# Distribution / packaging
+# --------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --------------------
+# Installer logs
+# --------------------
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --------------------
+# pytest
+# --------------------
+.cache/
+
+# --------------------
+# Type checkers
+# --------------------
+.mypy_cache/
+.pyre/
+.pyright/
+
+# --------------------
+# Editors / IDEs
+# --------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --------------------
+# Environment variables / secrets
+# --------------------
+.env
+.env.*
+secrets.yml
+
+# --------------------
+# Databases (local only)
+# --------------------
+*.db
+*.sqlite3
+
+# --------------------
+# Alembic (IMPORTANT FOR CI/CD)
+# --------------------
+# ❌ DO NOT ignore Alembic config or migration files
+!alembic.ini
+!app/db/migrations/versions/*.py
+
+# --------------------
+# Logs
+# --------------------
+*.log
+logs/
+
+# --------------------
+# Coverage
+# --------------------
+htmlcov/
+.coverage
+coverage.xml
+
+# --------------------
+# Node (if frontend added later)
+# --------------------
+node_modules/
+
+# --------------------
+# Docker
+# --------------------
+docker-compose.override.yml
+
+# --------------------
+# Compiled Python
+# --------------------
+*.pyc
+
+docs
+.agents
+.cursor
+.pytest_cache
+
+uv.lock
